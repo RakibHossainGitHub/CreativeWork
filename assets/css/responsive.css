@@ -1,0 +1,95 @@
+@media (max-width:991px) {
+/* ########### services section ########### */
+.main-section-1 {
+    height: 42rem;
+
+    & img {
+        margin-bottom: rem;
+        margin-right: rem;
+        margin-top: 7rem;
+        filter: drop-shadow(3px 3px 11px var(--black-color));
+        transition: all 0.4s linear;
+        border: 3px solid white;
+        border-radius: 5px;
+
+        &:hover {
+            filter: drop-shadow(5px 5px 11px var(--black-color));
+            margin-top: calc(7rem + -4px);
+        }
+    }
+.main-section-2 {
+    height: 43rem;
+
+    & img {
+
+        margin-bottom: rem;
+        margin-right: rem;
+        margin-top: 7rem;
+        filter: drop-shadow(3px 3px 11px var(--black-color));
+        transition: all 0.4s linear;
+        border: 3px solid white;
+        border-radius: 5px;
+
+        &:hover {
+            filter: drop-shadow(5px 5px 11px var(--black-color));
+            margin-top: calc(7rem + -4px);
+
+        }
+    }
+}
+}}
+
+@media (max-width:767px) {
+    /* ########### services section ########### */
+    .main-section-1 {
+        height: 60rem;
+        margin-left: 2rem;
+
+        & img {
+            margin-bottom: rem;
+            margin-right: rem;
+            margin-left: -0.9rem;
+            margin-top: 4rem;
+            filter: drop-shadow(3px 3px 11px var(--black-color));
+            transition: all 0.4s linear;
+            border: 3px solid white;
+            border-radius: 5px;
+            height: 19rem;
+
+            &:hover {
+                filter: drop-shadow(5px 5px 11px var(--black-color));
+                margin-top: calc(4rem + -4px);
+            }
+        }
+    }
+        .main-section-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+                height: 62rem;
+                & .container {
+                    margin-left: rem;
+                    
+                }
+            & img {
+                margin-left: rem;
+                margin-bottom: rem;
+                margin-right: rem;
+                margin-top: 4rem;
+                filter: drop-shadow(3px 3px 11px var(--black-color));
+                transition: all 0.4s linear;
+                border: 3px solid white;
+                border-radius: 5px;
+                height: 18rem;
+
+                &:hover {
+                    filter: drop-shadow(5px 5px 11px var(--black-color));
+                    margin-top: calc(4rem + -4px);
+                    
+
+                }
+            }
+        }
+}
+@media (max-width:575) {
+}
